@@ -41,6 +41,13 @@ brew install imagemagick
 brew install the_silver_searcher
 brew install tmux
 
+# Setup node.js
+curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | sh
+nvm install 0.11
+nvm alias default 0.11
+
+npm install -g yo
+
 # Use cask for installing GUI apps
 brew install caskroom/cask/brew-cask
 
