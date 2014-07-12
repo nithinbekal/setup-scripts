@@ -45,3 +45,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | sh
 nvm install 0.11
 nvm alias default 0.11
 npm install -g yo
+
+# Generate ssh keys
+mkdir -p ~/.ssh
+ssh-keygen -t rsa -C "nithinbekal@gmail.com"
