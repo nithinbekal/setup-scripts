@@ -1,6 +1,7 @@
 
 # Install packages
 sudo apt-get install -y curl                     \
+                        firefox                  \
                         git                      \
                         imagemagick              \
                         silversearcher-ag        \
