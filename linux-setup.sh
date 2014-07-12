@@ -19,12 +19,6 @@ sudo apt-get install git
 git config --global user.name "Nithin Bekal"
 git config --global user.email "nithinbekal@gmail.com"
 
-# Configure vim
-mkdir -p ~/.vim/bundle
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-mkdir -p ~/.tmp
-
 # zsh configuration
 chsh -s /bin/zsh
 curl -L http://install.ohmyz.sh | sh
@@ -36,9 +30,13 @@ rvm install 2.1.2
 
 # My dotfiles
 git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
-cd ~/code/dotfiles
-rake install
-cd ~
+~/code/dotfiles/install
+
+# Configure vim
+mkdir -p ~/.vim/bundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+mkdir -p ~/.tmp
 
 # Install nvm and node.js
 curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | sh
