@@ -26,10 +26,9 @@ curl -L http://install.ohmyz.sh | sh
 # Install RVM
 \curl -sSL https://get.rvm.io | bash -s stable
 rvm install ruby
-rvm install 2.1.2
 
 # My dotfiles
-git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
+git clone git@github.com:nithinbekal/dotfiles.git ~/code/dotfiles
 ~/code/dotfiles/install
 
 # Configure vim
