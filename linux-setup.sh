@@ -4,6 +4,7 @@ sudo apt-get install -y curl                     \
                         firefox                  \
                         git                      \
                         imagemagick              \
+                        libmagickwand-dev        \
                         silversearcher-ag        \
                         tmux                     \
                         ubuntu-restricted-extras \
