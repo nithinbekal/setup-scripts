@@ -1,10 +1,17 @@
 
+# Add 10gen's mongo repository
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | sudo tee -a /etc/apt/sources.list.d/10gen.list
+
+sudo apt-get -y update
+
 # Install packages
 sudo apt-get install -y curl                     \
                         firefox                  \
                         git                      \
                         imagemagick              \
                         libmagickwand-dev        \
+                        mongodb-10gen            \
                         silversearcher-ag        \
                         tmux                     \
                         ubuntu-restricted-extras \
