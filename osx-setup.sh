@@ -54,4 +54,4 @@ brew install caskroom/cask/brew-cask
 brew cask install dropbox
 brew cask install seil
 brew cask install sublime-text
- 
+brew cask install iterm2
