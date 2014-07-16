@@ -22,8 +22,7 @@ sudo apt-get install -y curl                     \
 # Create code and play directories
 mkdir -p ~/code/play
 
-# Install git
-sudo apt-get install git
+# Configure git
 git config --global user.name "Nithin Bekal"
 git config --global user.email "nithinbekal@gmail.com"
 
