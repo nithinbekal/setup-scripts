@@ -35,7 +35,7 @@ curl -L http://install.ohmyz.sh | sh
 rvm install ruby
 
 # My dotfiles
-git clone git@github.com:nithinbekal/dotfiles.git ~/code/dotfiles
+git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
 ~/code/dotfiles/install
 
 # Configure vim
