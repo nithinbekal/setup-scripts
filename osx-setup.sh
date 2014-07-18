@@ -3,7 +3,6 @@
 # Might need to install XCODE command line tools
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-# Install zsh and reopen terminal
 brew install ctags
 brew install git
 brew install mongodb
