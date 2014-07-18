@@ -4,27 +4,32 @@
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # Install zsh and reopen terminal
-brew install zsh
-brew install git
 brew install ctags
+brew install git
+brew install mongodb
 brew install imagemagick
 brew install the_silver_searcher
 brew install tmux
+brew install zsh
 
 # Use cask for installing GUI apps
 brew install caskroom/cask/brew-cask
 
 brew cask install dropbox
+brew cask install iterm2
 brew cask install seil
 brew cask install sublime-text
-brew cask install iterm2
 
 # Create code and play directories
 mkdir -p ~/code/play
 
-# Configure git
+# Git
 git config --global user.name "Nithin Bekal"
 git config --global user.email "nithinbekal@gmail.com"
+
+# Mongodb
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 
 # Configure zsh
 chsh -s /bin/zsh
