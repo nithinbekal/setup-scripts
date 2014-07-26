@@ -6,7 +6,8 @@ echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" | 
 sudo apt-get -y update
 
 # Install packages
-sudo apt-get install -y curl                     \
+sudo apt-get install -y ack-grep                 \
+                        curl                     \
                         firefox                  \
                         git                      \
                         imagemagick              \
