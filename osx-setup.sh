@@ -7,11 +7,7 @@ brew install ack ctags git imagemagick mongodb tmux zsh
 
 # Use cask for installing GUI apps
 brew install caskroom/cask/brew-cask
-
-brew cask install dropbox
-brew cask install iterm2
-brew cask install seil
-brew cask install sublime-text
+brew cask install dropbox iterm2 seil sublime-text
 
 # Create code and play directories
 mkdir -p ~/code/play
