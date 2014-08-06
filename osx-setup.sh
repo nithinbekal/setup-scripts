@@ -3,14 +3,7 @@
 # Might need to install XCODE command line tools
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
-brew install ack
-brew install ctags
-brew install git
-brew install imagemagick
-brew install mongodb
-brew install the_silver_searcher
-brew install tmux
-brew install zsh
+brew install ack ctags git imagemagick mongodb tmux zsh
 
 # Use cask for installing GUI apps
 brew install caskroom/cask/brew-cask
