@@ -39,7 +39,7 @@ vim +PluginInstall +qall
 mkdir -p ~/.tmp
 
 # Setup node.js
-curl https://raw.githubusercontent.com/creationix/nvm/v0.10.0/install.sh | sh
+curl https://raw.githubusercontent.com/creationix/nvm/v0.13.0/install.sh | bash
 nvm install 0.11
 nvm alias default 0.11
 npm install -g yo
