@@ -1,7 +1,6 @@
 
-# Install brew
-# Might need to install XCODE command line tools
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# Install homebrew - this will also install xcode command line tools
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew install ack ctags git imagemagick mongodb tmux zsh
 
