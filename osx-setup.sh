@@ -23,13 +23,13 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 chsh -s /bin/zsh
 curl -L http://install.ohmyz.sh | sh
 
-# Install RVM
-\curl -sSL https://get.rvm.io | bash -s stable
-rvm install ruby
-
 # My dotfiles
 git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
 ~/code/dotfiles/install
+
+# Install RVM
+\curl -sSL https://get.rvm.io | bash -s stable
+rvm install ruby
 
 # Configure vim
 mkdir -p ~/.vim/bundle
