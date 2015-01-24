@@ -10,7 +10,7 @@ This script installs the tools I use on my work computer.
 * RVM (also installs latest ruby and 2.1.2)
 * Seil (OSX - for mapping ESC to CapsLock key)
 * Tmux
-* Vim (uses vim-gnome on Elementary and system vim on OSX)
+* Vim (uses vim-gnome on Elementary and Macvim on OSX)
 * Zsh (default shell, with oh-my-zsh)
 
 ### Mac OSX

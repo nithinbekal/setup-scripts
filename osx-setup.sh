@@ -2,7 +2,7 @@
 # Install homebrew - this will also install xcode command line tools
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install ack ctags git imagemagick mongodb tmux zsh
+brew install ack ctags git imagemagick mongodb tmux zsh vim macvim
 
 # Use cask for installing GUI apps
 brew install caskroom/cask/brew-cask
