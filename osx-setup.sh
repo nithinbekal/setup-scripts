@@ -38,9 +38,9 @@ vim +PluginInstall +qall
 mkdir -p ~/.tmp
 
 # Setup node.js
-curl https://raw.githubusercontent.com/creationix/nvm/v0.13.0/install.sh | bash
-nvm install 0.11
-nvm alias default 0.11
+curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
+nvm install stable
+nvm alias default stable
 npm install -g yo
 
 # Generate ssh keys
