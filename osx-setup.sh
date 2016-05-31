@@ -38,12 +38,6 @@ cd ~/code/dotfiles && rake install
 \curl -sSL https://get.rvm.io | bash -s stable
 rvm install ruby
 
-# Configure vim
-mkdir -p ~/.vim/bundle
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-vim +PluginInstall +qall
-mkdir -p ~/.tmp
-
 # Setup node.js
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 nvm install 6.0
