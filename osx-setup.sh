@@ -46,3 +46,8 @@ nvm install 6.2
 # Generate ssh keys
 mkdir -p ~/.ssh
 ssh-keygen -t rsa -C "nithinbekal@gmail.com"
+
+# Set up postgresql
+brew install postgresql
+brew services start postgresql
+initdb /usr/local/var/postgres
