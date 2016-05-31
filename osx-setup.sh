@@ -8,8 +8,8 @@ brew install ack ctags git imagemagick mongodb tmux zsh vim macvim
 brew install caskroom/cask/brew-cask
 brew cask install dropbox iterm2 seil sublime-text
 
-# Create code and play directories
-mkdir -p ~/code/play
+# Create code directory
+mkdir -p ~/code
 
 # Git
 git config --global user.name "Nithin Bekal"
