@@ -41,7 +41,6 @@ mkdir -p ~/.tmp
 curl https://raw.githubusercontent.com/creationix/nvm/v0.24.0/install.sh | bash
 nvm install stable
 nvm alias default stable
-npm install -g yo
 
 # Generate ssh keys
 mkdir -p ~/.ssh
