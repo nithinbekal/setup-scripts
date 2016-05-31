@@ -24,6 +24,12 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 chsh -s /bin/zsh
 curl -L http://install.ohmyz.sh | sh
 
+# Configure vim
+mkdir -p ~/.vim/bundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+mkdir -p ~/.tmp
+
 # My dotfiles
 git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
 cd ~/code/dotfiles && rake install
