@@ -21,6 +21,7 @@ ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 
 # Configure zsh
+touch ~/.env.local
 chsh -s /bin/zsh
 curl -L http://install.ohmyz.sh | sh
 
