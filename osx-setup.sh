@@ -26,7 +26,7 @@ curl -L http://install.ohmyz.sh | sh
 
 # My dotfiles
 git clone https://github.com/nithinbekal/dotfiles.git ~/code/dotfiles
-~/code/dotfiles/install
+cd ~/code/dotfiles && rake install
 
 # Install RVM
 \curl -sSL https://get.rvm.io | bash -s stable
