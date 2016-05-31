@@ -41,7 +41,7 @@ rvm install ruby
 
 # Setup node.js
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
-nvm install 6.0
+nvm install 6.2
 
 # Generate ssh keys
 mkdir -p ~/.ssh
